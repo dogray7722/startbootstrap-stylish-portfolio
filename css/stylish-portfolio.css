@@ -243,6 +243,26 @@ hr.small {
   -ms-transform: translate(-50%, -50%);
 }
 
+/* unvisited link */
+/*.text a:link {
+    color: red;
+}*/
+
+/* visited link */
+.text a:visited {
+    color: black;
+}
+
+/* mouse over link */
+.text a:hover {
+    color: black;
+}
+
+/* selected link */
+.text a:active {
+    color: #121e1d;
+}
+
 .portfolio {
   padding: 10px 0;
 }
